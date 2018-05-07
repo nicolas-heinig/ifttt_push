@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "This provides a common interface for a simple push notification using ifttt.com. You will have to sign up there and get a key."
   s.authors     = ["Nicolas Heinig"]
   s.email       = 'nheinig@gmx.net'
-  s.files       = ["lib/ifttt_push.rb"]
+  s.files       = `git ls-files`.split("\n")
   s.homepage    =
     'http://rubygems.org/gems/ifttt_push'
   s.license       = 'MIT'
