@@ -1,0 +1,3 @@
+class IftttPush
+
+end
