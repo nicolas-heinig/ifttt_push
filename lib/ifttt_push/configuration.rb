@@ -1,4 +1,4 @@
-module IftttPush
+class IftttPush
   class Configuration
     attr_accessor :key
 
